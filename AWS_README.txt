@@ -12,6 +12,7 @@ cd ~/CS7IS3/Lucene-Information-Retrieval-1/
 ********************************************
 
 2. Please do mvn clean install.
+
 ********************************************
 mvn clean install
 ********************************************
