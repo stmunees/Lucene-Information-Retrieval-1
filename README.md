@@ -21,10 +21,15 @@ mvn clean install
 3. Once you go to the Jar file location you run the program with these given parameters in the order.
 
 mvn exec:java -Dexec.mainClass="IR.IndexFiles" -Dexec.args= "[-index] [-docs] [-queries] [-score] [-args_path]"
-[-index] 	Path to mention where to save your index files after indexing.
-[-docs]		Path to the cran.all.1400 file, which is a single file with 1400 docs.
-[-queries] 	Path to cran.qry file, which is a single file 225 queries.
-[-score]	Score determines the which Similarity Index you want to use.
+
+```[-index]``` 	  Path to mention where to save your index files after indexing.
+
+```[-docs]```		  Path to the cran.all.1400 file, which is a single file with 1400 docs.
+
+```[-queries]``` 	Path to cran.qry file, which is a single file 225 queries.
+
+```[-score]```	  Score determines the which Similarity Index you want to use.
+
 
 - 0 for ClassicSimilarity
 - 1 for BM25Similarity (Gives Best MAP Score)
