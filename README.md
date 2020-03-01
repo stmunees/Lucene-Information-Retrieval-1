@@ -55,6 +55,9 @@ cd ~/CS7IS3/Lucene-Information-Retrieval-1/trec_eval-9.0.7
 ```
 
 
+The working of this project can be seen in the ``` Working ``` folder.
+
+
 Code References:
 Lucene Demo Code (IndexFiles.java and SearchFiles.java),
 https://lucene.apache.org/core/8_4_1/demo/overview-summary.html#overview.description.
