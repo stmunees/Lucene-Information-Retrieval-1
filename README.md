@@ -6,6 +6,8 @@ This project uses Intellij Workspace with Maven configured.
 
 This project uses Apache Lucene for the implementation of search engine. Lucene is an open source full-text search engine toolkit which is implemented in Java. This project uses Apache Lucene version 8.4.1 with OpenJDK 13.0.2 using JRE 8u241.
 
+*Cranfield 1400* collection consists of 1398 abstracts along with 225 queries and the relevance judgments of all query.
+
 ### Final Output of QRel
 
 <img src="Working/fig1.png" width="476">
