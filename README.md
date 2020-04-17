@@ -6,6 +6,14 @@ This project uses Intellij Workspace with Maven configured.
 
 This project uses Apache Lucene for the implementation of search engine. Lucene is an open source full-text search engine toolkit which is implemented in Java. This project uses Apache Lucene version 8.4.1 with OpenJDK 13.0.2 using JRE 8u241.
 
+### Final Output of QRel
+
+<img src="Working/fig1.png" width="476">
+
+### Comparison of Outputs of QRel
+
+<img src="Working/fig2.png" width="428">
+
 ## Running the Project
 
 1. Clone the repository.
@@ -47,7 +55,7 @@ Once you're done with generating the ```output.txt``` file you are ready to comp
 1. Change the directory to the folder which contains the binary file of Trec Eval.
 
 ```
-cd ~/CS7IS3/Lucene-Information-Retrieval-1/trec_eval-9.0.7
+cd ~/../Lucene-Information-Retrieval-1/trec_eval-9.0.7
 ```
 
 2. ```make``` to get an executable for TREC Eval.
