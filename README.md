@@ -34,8 +34,9 @@ mvn clean install
 
 4. You need to Maven Execute the program with these given parameters in the given order.
 
-```mvn exec:java -Dexec.mainClass="IR.IndexFiles" -Dexec.args= "[-index] [-docs] [-queries] [-score] [-args_path]"```
-
+```
+mvn exec:java -Dexec.mainClass="IR.IndexFiles" -Dexec.args= "[-index] [-docs] [-queries] [-score] [-args_path]"
+```
 
 - ```[-index]``` 	  Path to mention where to save your index files after indexing.
 - ```[-docs]```		  Path to the cran.all.1400 file, which is a single file with 1400 docs.
